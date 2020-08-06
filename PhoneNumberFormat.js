@@ -41,6 +41,7 @@ function phoneFormat(input){
         }
         return input; 
 }
+// If person is not a US Citizen, return digits only but allow it in any format
 else {return input = input.replace(/\D/g,'');} //return digits only but allow it in any format
 }
 </script>
